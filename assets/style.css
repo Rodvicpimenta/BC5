@@ -1,0 +1,227 @@
+body {
+    background-color:#061E44;
+    font-family: "Open Sans", verdana, arial, sans-serif;
+  }
+  
+  .side_bar {
+    height: 100%;
+    width: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #39393A;
+    padding-left: 1%;
+    padding-right: 1%;
+    color:rgb(7, 7, 7);
+  }
+  
+  .main {
+    font-size: 15px; 
+    padding: 0px 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    color:#e1e2df;
+  }
+  
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #01114fea;
+    padding-left: 1%;
+    color: #DFE3E8;
+  }
+  
+  h1 {
+    color:#e8e8e8;
+    font-family: 'Titallium';
+    text-align: left;
+    font-stretch: expanded;
+    font-size: 50px;
+  }
+  
+  h2 {
+    margin-block-start:0.3em;
+    font-weight:lighter;
+    font-family: 'Titallium';
+    color:#e8e8e8;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-block-start:0.3em;
+    font-family: 'Helvetica';
+    margin-top: 3%;
+    color: white;
+    font-weight:100;
+    font-size: 18px;
+  }
+  
+  h4 {
+    margin-block-end:0.3em;
+    font-size: smaller;
+    font-weight:lighter
+  }
+  
+  .text{
+    margin: 10px;
+    padding: 25px;
+    align-self: center;
+  }
+  
+  .row{
+    display: flex;
+  }
+  
+  /* Boxes */
+
+  .boxtabs {
+    border-radius: 5px;
+    background-color: #061E44;
+    padding: 2%;
+    width:90%;
+  }
+
+  .box {
+    border-radius: 5px;
+    background-color: #09255d;
+    padding: 25px;
+    width:100%;
+  }
+
+  .price_box {
+    border-radius: 0px;
+    background-color: #09255d;
+    padding: 0;
+    width:20%;
+  }
+    
+  .box_crypto_info{
+    border-radius: 2px;
+    background-color: #061E44;    
+    margin: 2px;
+    box-shadow: 2px 2px 2px rgb(162, 162, 162);
+    justify-content: left;
+    width: 90%;
+    text-align: center;    
+  }
+
+  .info_box {    
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:#061E44;
+  }
+
+  /* Tabs */
+  .tabs {
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    margin-top: 2%;
+    margin-left : 5%;
+    margin-bottom: 0%;
+    background-color: #DFE3E8;  
+    width: 20%;  
+    text-align: center;
+  }
+
+  .labels {
+    color: #061E44;
+  }
+
+  /* button */
+  .btn-group button {
+    background-color: white; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    outline: lightblue;
+  }
+
+  /* Slider */
+  #season_slider .rc-slider-track{
+    background-color: darkgrey;
+  }
+  #season_slider .rc-slider-dot-active {  
+    border-color: white;
+    border: solid 2px #901a1a;
+  }
+  
+  #season_slider .rc-slider-handle {
+    background-color: #901a1a;
+    border-color: darkgrey;
+  }
+  
+  #season_slider .rc-slider-handle:hover {
+    border-color: #901a1a;
+  }
+  
+ 
+
+
+  /* Drop down */
+  #dvsc_dropdown1 .VirtualizedSelectFocusedOption {
+    background-color:#5656568e;
+  }
+  #dvsc_dropdown1 .VirtualizedSelectSelectedOption {
+    font-weight: bold;
+  }
+
+  /* Drop down */
+  #driver_dropdown2 .VirtualizedSelectFocusedOption {
+    background-color:#5656568e;
+  }
+  #driver_dropdown2 .VirtualizedSelectSelectedOption {
+    font-weight: bold;
+  }
+  
+  
+  /* Scrollbars */
+  *::-webkit-scrollbar {
+    width: 12px;               
+  }
+  *::-webkit-scrollbar-track {
+    background: #EDEFEB;        
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color:#e74343bf;    
+    border-radius: 20px;      
+    border: 3px solid #EDEFEB;  
+  }
+  
+  /* Radio buttons */
+.radio {
+  display:flex;
+  justify-content: left;
+  place-content:space-around;
+  width: 88%;
+}
+
+.radio input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.radio label {
+  display: table-caption;
+  background-color: #09255d;
+  padding: 15px 15px;
+  font-size: 16px;
+  border: 2px solid #5399e98e;
+  border-radius: 10px;
+  width: 200%;
+  text-align: center;
+}
+
+.radio input[type="radio"]:checked + label {
+  background-color: #09485d;              
+  border: 2px solid #53d3e98e;
+}
+
+.radio label:hover {
+  background-color: #e1e2df;
+  border: 2px solid #e1e2df;
+}
